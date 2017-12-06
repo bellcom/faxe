@@ -1,0 +1,5 @@
+[submodule "public_html/profiles/os2web"]
+	path = public_html/profiles/os2web
+	url = git@github.com:bellcom/os2web_profile.git
+	ignore = dirty
+	branch = 2.x
