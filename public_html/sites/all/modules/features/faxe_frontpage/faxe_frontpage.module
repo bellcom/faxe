@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Fredericia Frontpage feature.
+ */
+
+include_once 'faxe_frontpage.features.inc';
