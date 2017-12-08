@@ -75,7 +75,7 @@
             <!-- Begin - main navigation -->
             <nav class="main-navigation-wrapper">
                 <section class="main-navigation-bar">
-                    <div class="container">
+                    <div class="<?php print $container_class; ?>">
                         <div class="row">
 
                             <!-- Begin - content -->
@@ -107,20 +107,15 @@
 
             <!-- Begin - page header -->
             <div class="os2-page-header">
-                <div class="container">
-
-                    <!-- Begin - search -->
-                    <div class="row">
-                        <div class="os2-page-header-search-form">
-                            <?php print render($page_header_search); ?>
-                        </div>
-                    </div>
-                    <!-- End - search -->
+                <div class="<?php print $container_class; ?>">
 
                     <!-- Begin - menu -->
                     <div class="row">
-                        <div class="os2-page-header-tabbed-menu">
+                        <div class="os2-page-header-tabbed-menu col-sm-8">
                             <?php print render($tabbed_navigation); ?>
+                        </div>
+                        <div class="os2-page-header-search-form  col-sm-4">
+                            <?php print render($page_header_search); ?>
                         </div>
                     </div>
                     <!-- End - menu -->
@@ -132,7 +127,7 @@
             <?php if (!empty($breadcrumb)): ?>
                 <!-- Begin - breadcrumb -->
                 <section class="os2-breadcrumb-container">
-                    <div class="container">
+                    <div class="<?php print $container_class; ?>">
                         <div class="row">
                             <div class="col-xs-12">
                                 <?php print $breadcrumb; ?>
@@ -143,7 +138,7 @@
                 <!-- End - breadcrumb -->
             <?php endif; ?>
 
-            <div class="container">
+            <div class="<?php print $container_class; ?>">
 
                 <?php if (!empty($page['help'])): ?>
                     <?php print render($page['help']); ?>
@@ -177,14 +172,14 @@
             </div>
             <?php if (panels_get_current_page_display()): ?>
                 <?php if ($wrap_panels_layout): ?>
-                    <div class="container">
+                    <div class="<?php print $container_class; ?>">
                         <?php print render($page['content']); ?>
                     </div>
                 <?php else: ?>
                     <?php print render($page['content']); ?>
                 <?php endif; ?>
             <?php else: ?>
-                <div class="container">
+                <div class="<?php print $container_class; ?>">
                     <div class="os2-box">
                         <div class="os2-box-body">
                             <?php print render($page['content']); ?>
@@ -199,7 +194,7 @@
         <!-- Begin - footer -->
         <?php if (!empty($page['footer'])): ?>
             <footer class="footer">
-                <div class="container">
+                <div class="<?php print $container_class; ?>">
                     <div class="footer-content">
                         <div class="row">
 

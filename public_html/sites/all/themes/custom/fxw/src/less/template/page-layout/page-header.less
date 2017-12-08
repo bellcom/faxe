@@ -18,9 +18,9 @@
 @os2-page-header-md-max-width: 50%;
 @os2-page-header-lg-max-width: @os2-page-header-md-max-width;
 
-@os2-page-header-search-form-xs-padding-top-bottom: 30px;
-@os2-page-header-search-form-sm-padding-top-bottom: 20px;
-@os2-page-header-search-form-md-padding-top-bottom: 40px;
+@os2-page-header-search-form-xs-padding-top-bottom: 0;
+@os2-page-header-search-form-sm-padding-top-bottom: 0;
+@os2-page-header-search-form-md-padding-top-bottom: 0;
 @os2-page-header-search-form-lg-padding-top-bottom: @os2-page-header-search-form-md-padding-top-bottom;
 
 // --------------------------------------------------
@@ -28,12 +28,12 @@
 // --------------------------------------------------
 
 // Page header
-.os2-page-header {
+/*.os2-page-header {
   background: @os2-page-header-background-image;
   background-size: cover;
   background-position: center center;
 }
-
+*/
 // Search form
 .os2-page-header {
 
@@ -90,19 +90,15 @@ body {
 
       .os2-page-header-tabbed-menu-link {
         display: block;
-        background-color: rgba(0, 0, 0, .2);
-        border-radius: @border-radius-large;
-        padding: 8px;
 
         a {
           position: relative;
           display: block;
           text-align: center;
-          background-color: #dfe2ec;
+          background-color: darken(@body-bg, 10%);
           border-radius: @border-radius-large;
-          .heading-h1;
           font-weight: @headings-font-weight-bold;
-          padding: 15px 0;
+          padding: 8px 0;
 
           &,
           &:hover {
@@ -150,7 +146,7 @@ body {
 
   // Page header
   .os2-page-header {
-    padding-top: 15px;
+    padding-top: 0px;
 
     .os2-page-header-search-form {
       padding: @os2-page-header-search-form-xs-padding-top-bottom 0;
@@ -254,7 +250,7 @@ body {
 
   // Page header
   .os2-page-header {
-    padding-top: 25px;
+    padding-top: 0px;
 
     .os2-page-header-search-form {
       padding: @os2-page-header-search-form-sm-padding-top-bottom 0;
@@ -282,7 +278,7 @@ body {
 
   // Page header
   .os2-page-header {
-    padding-top: 35px;
+    padding-top: 15px;
   }
 
   // Tabbed menu

@@ -67,7 +67,7 @@ function fxw_preprocess_html(&$variables) {
   drupal_add_html_head(array(
     '#tag' => 'link',
     '#attributes' => array(
-      'href' => 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Open+Sans:400,400i,700,700i|Vollkorn:400,400i,700,700',
+      'href' => 'https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro',
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
@@ -531,7 +531,7 @@ function fxw_menu_link__tabbed(array $variables) {
 
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
 
-  return '<div class="col-xs-4 col-xs-small-gutter"><div class="os2-page-header-tabbed-menu-link">' . $output . $sub_menu . "</div></div>\n";
+  return '<div class="col-xs-3 col-xs-small-gutter"><div class="os2-page-header-tabbed-menu-link">' . $output . $sub_menu . "</div></div>\n";
 }
 
 /*
