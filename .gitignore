@@ -1,1 +1,4 @@
 .idea
+logs
+tmp
+public_html/sites/all/vendor
