@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Fredericia Settings feature.
+ */
+
+include_once 'fki_settings.features.inc';
