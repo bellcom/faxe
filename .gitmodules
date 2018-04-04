@@ -1,6 +1,7 @@
 [submodule "public_html/profiles/os2web"]
 	path = public_html/profiles/os2web
 	url = git@github.com:bellcom/os2web_profile.git
+    branch = 2.x
 
 [submodule "public_html/sites/faxekommune.dk"]
 	path = public_html/sites/faxekommune.dk
