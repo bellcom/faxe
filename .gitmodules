@@ -5,5 +5,5 @@
 
 [submodule "public_html/sites/faxekommune.dk"]
 	path = public_html/sites/faxekommune.dk
-	url = https://github.com/bellcom/faxe.web
+	url = git@github.com:bellcom/faxe.web.git
 	ignore = dirty
