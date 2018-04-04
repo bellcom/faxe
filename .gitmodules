@@ -3,3 +3,8 @@
 	url = git@github.com:bellcom/os2web_profile.git
 	ignore = dirty
 	branch = 2.x
+
+[submodule "public_html/sites/faxekommune.dk"]
+	path = public_html/sites/faxekommune.dk
+	url = https://github.com/bellcom/faxe.web
+	ignore = dirty
