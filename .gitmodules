@@ -1,9 +1,7 @@
 [submodule "public_html/profiles/os2web"]
 	path = public_html/profiles/os2web
 	url = git@github.com:bellcom/os2web_profile.git
-	ignore = dirty
 
 [submodule "public_html/sites/faxekommune.dk"]
 	path = public_html/sites/faxekommune.dk
 	url = git@github.com:bellcom/faxe.web.git
-	ignore = dirty
