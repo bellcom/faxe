@@ -52,3 +52,4 @@ public_html/sites/all
 .Spotlight-V100
 .Trashes
 *.dd
+/public_html/sites/sites.php
