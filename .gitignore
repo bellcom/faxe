@@ -53,3 +53,4 @@ public_html/sites/all
 .Trashes
 *.dd
 /public_html/sites/sites.php
+drush.phar
